@@ -1,0 +1,60 @@
+.autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  font-weight: 600;
+  border: none;
+  outline: none;
+  margin-left: 7px;
+}
+input:hover {
+  border: none;
+  border-radius: 0px;
+}
+
+.autocomplete-items {
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  margin-top: 15px;
+  top: 100%;
+  left: 0;
+  right: 50%;
+}
+
+.selected-suggestion {
+  background-color: rgb(0, 90, 30) !important;
+  color: white;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d41a;
+}
+
+.autocomplete-items div:hover {
+  background-color: #a695957a;
+}
+
+.user-chip {
+    align-items: center;
+    padding: 4px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.delete-icon-chip {
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  font-size: 12px;
+}
+
+.delete-icon-chip:hover {
+  opacity: 1;
+}
