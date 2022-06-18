@@ -13,12 +13,12 @@ export class AppComponent {
     { id: '001', name: 'mangosdkjklasjdskajdklajdkajkdlakd' },
     { id: '002', name: 'apple' },
     { id: '003', name: 'bananaaksdjakldskaljdkajdsksajdkajsklas' },
-    { id: '004', name: 'pine' },
+    { id: '004', name: 'pinesdkjakdsljalkdjkasjdkljaklsdjkajdlkajsdkljasdlkjaksldjdksjds' },
     { id: '005', name: 'orange' },
     { id: '006', name: 'chery' },
     { id: '007', name: 'watermelon' },
     { id: '008', name: 'grapes' },
-    { id: '009', name: 'lemon' },
+    { id: '009', name: 'lemon' }
   ];
 
   show: boolean = false;

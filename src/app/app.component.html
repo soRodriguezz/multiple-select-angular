@@ -1,4 +1,4 @@
-<div class="autocomplete container mt-5 text-center">
+<div class="autocomplete container mt-2 text-center">
   <div class="chips-input-container">
     <div class="user-chip mb-1" *ngFor="let user of userSelects">
       {{ user.name }}
@@ -7,9 +7,12 @@
       >
     </div>
 
-    <button class="btn btn-success" (click)="suggest()">
-      Agregar categoria
-    </button>
+    <div class="mt-4">
+      <button class="btn btn-success" (click)="suggest()">
+        Agregar categoria
+      </button>
+    </div>
+    
   </div>
 
   <div class="autocomplete-items" *ngIf="show">
